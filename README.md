@@ -45,18 +45,22 @@ cd fullstack-python-svelte
 cd backend
 
 # Create and activate virtual environment
+```
 python -m venv venv
 venv\Scripts\activate   # On Windows
 # OR
 source venv/bin/activate  # On Linux/Mac
-
+```
 # Install dependencies
+```
 pip install -r requirements.txt
+```
 
 # Create and configure .env
 cp .env.example .env
 
 # Edit .env with your MySQL DB credentials
+go to .env file update corresponding credentials
 
 # Start the FastAPI server
 
